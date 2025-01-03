@@ -1,0 +1,15 @@
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    height: 250px;
+    object-fit: contain;
+    padding: 10px;
+  }
